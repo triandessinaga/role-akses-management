@@ -1710,17 +1710,3 @@ Akses Route Terproteksi:
 
 ---
 
-## Tips untuk Video Pembelajaran
-
-1. Jelaskan kenapa Breeze harus di-install **sebelum** menambahkan route role akses
-2. Tunjukkan isi `routes/auth.php` yang dihasilkan Breeze secara otomatis
-3. Demo register via `/register` → role otomatis `user`
-4. Demo register via URL rahasia admin → role otomatis `admin`
-5. Demo register via URL rahasia superadmin → wajib isi secret key
-6. Demo akses URL yang salah role → tampilkan error 403
-7. Tunjukkan cara generate URL acak dengan `Str::random(32)` di tinker
-8. Tunjukkan cara debug dengan `dd(auth()->user()->role)`
-
----
-
-*Panduan ini dibuat untuk keperluan video pembelajaran Laravel — Middleware & Role Akses Multi User*
